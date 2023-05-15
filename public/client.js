@@ -35,8 +35,8 @@ btn.addEventListener('click', function() {
                     }).then(text => {
                         div.innerHTML = text;
                     });
-                });
-            });
-        });
-    });
-});
+                }, {once: true});
+            }, {once: true});
+        }, {once: true});
+    }, {once: true});
+}, {once: true});
