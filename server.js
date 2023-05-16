@@ -1,5 +1,5 @@
 export default {
     '/handler/': function({get}) {
-        return get.num ** 2;
+        return (+get.num1 + +get.num2);
     }
 }
