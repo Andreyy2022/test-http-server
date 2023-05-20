@@ -1,7 +1,6 @@
 export default {
     '/handler/': function({get}) {
-    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    
-    return arr[get.num]; 
+        console.log(get);
+        return 'form data received';
     }
 }
