@@ -5,7 +5,7 @@ let inp3 = document.querySelector('[number="num3"]');
 let par = document.querySelector('p');
 
 form.addEventListener('submit', function(event) {
-    let searchPrarams = new searchPrarams();
+    let searchPrarams = new URLSearchPrarams();
 
     searchPrarams.set('num1', inp1.value);
     searchPrarams.set('num2', inp2.value);
@@ -21,4 +21,4 @@ form.addEventListener('submit', function(event) {
     });
 
     event.preventDefault();
-})
+});

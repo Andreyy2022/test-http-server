@@ -1,5 +1,5 @@
 export default {
-    '/handler/': function([get]) {
+    '/handler/': function({get}) {
     console.log(get);
 
     let sum = 0;
